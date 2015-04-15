@@ -45,6 +45,9 @@ function bitreader(arr) {
       v = v * Math.pow(2, n2) + (accum >>> n);
       accum &= (1 << n) - 1;
       return v;
+
+
+      
     }
   }
   return c;
