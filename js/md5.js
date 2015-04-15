@@ -143,6 +143,7 @@ md5blks[i>>2] = s.charCodeAt(i)
 + (s.charCodeAt(i+2) << 16)
 + (s.charCodeAt(i+3) << 24);
 }
+console.log(md5blks)
 return md5blks;
 }
 
