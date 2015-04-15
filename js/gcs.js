@@ -28,6 +28,8 @@ function bitreader(arr) {
       accum = 0,
       n = 0;
 
+      console.log('ciao')
+
   function c (n2, v) {
     if (typeof v === 'undefined') v = 0;
     if (n2 > 8) {
