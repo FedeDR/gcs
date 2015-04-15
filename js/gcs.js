@@ -28,8 +28,6 @@ function bitreader(arr) {
       accum = 0,
       n = 0;
 
-      console.log('ciao')
-
   function c (n2, v) {
     if (typeof v === 'undefined') v = 0;
     if (n2 > 8) {
@@ -45,9 +43,6 @@ function bitreader(arr) {
       v = v * Math.pow(2, n2) + (accum >>> n);
       accum &= (1 << n) - 1;
       return v;
-
-
-      
     }
   }
   return c;
